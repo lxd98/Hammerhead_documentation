@@ -113,12 +113,10 @@ coverage, typically considered to be more than 50-fold coverage.
 Detailed usage
 ==============
 
-.. code:: shell
+::
 
    usage: test [-h] --ref  --read  [--cpu] [--method] [--cut] [--num] [--min_depth] [--min_depth_strand]
-
    A tool helps to find the potential modification sites
-
    optional arguments:
      -h, --help           show this help message and exit
      --ref                Input reference (FASTA)
@@ -222,25 +220,11 @@ strategy, there will be an extra file named
 total used sites. The following table is a demo of
 **potential_modification_site.txt**.
 
-+-------------------+---+---+------------+---+---+---+---+-----------+
-| Chr               | S | E | Differ     | D | D | D | D | A,T,G,    |
-|                   | t | n | ence_index | i | i | i | i | C,a,t,g,c |
-|                   | a | d |            | f | f | f | f |           |
-|                   | r |   |            | _ | _ | _ | _ |           |
-|                   | t |   |            | A | T | G | C |           |
-+===================+===+===+============+===+===+===+===+===========+
-| ecoli1_           | 3 | 3 | 0.667      | 0 | 0 | 0 | 0 | 0,0,0,    |
-| 980_2_tig00000001 | 9 | 9 |            | . | . | . | . | 3,0,2,0,1 |
-|                   | 5 | 5 |            | 0 | 6 | 0 | 6 |           |
-|                   | 7 | 7 |            |   | 6 |   | 6 |           |
-|                   | 0 | 1 |            |   | 7 |   | 7 |           |
-+-------------------+---+---+------------+---+---+---+---+-----------+
-| ecoli1_           | 5 | 5 | 0.5        | 0 | 0 | 0 | 0 | 0,0,2,    |
-| 980_2_tig00000001 | 0 | 0 |            | . | . | . | . | 2,0,0,5,0 |
-|                   | 1 | 1 |            | 0 | 0 | 5 | 5 |           |
-|                   | 3 | 3 |            |   |   |   |   |           |
-|                   | 3 | 4 |            |   |   |   |   |           |
-+-------------------+---+---+------------+---+---+---+---+-----------+
+.. code:: shell
+
+   #Chr	Start	End	Difference_index	Dif_A	Dif_T	Dif_G	Dif_C	A,T,G,C,a,t,g,c 
+   ecoli1_tig1	39570	39571	0.667	0.0	0.667	0.0	0.667	0,0,0,3,0,2,0,1 
+   ecoli1_tig1	50133	50134	0.5	0.0	0.0	0.5	0.5	0,0,2,2,0,0,5,0
 
 The **Chr**, **strat**, and **End** are the position information of
 potential modification sites. The **Difference_index** means the
