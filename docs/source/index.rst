@@ -1,10 +1,8 @@
 Overview
 ========
 
-.. figure:: ../figure/Logo.png
+.. figure:: ../figures/Logo.png
    :alt: Logo
-
-   Logo
 
 ``Hammerhead`` is a tool designed to *de novo* identify bacterial DNA
 methylation, including 4mC, 5mC, and 6mA, based on the strand-specific
