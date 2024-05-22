@@ -294,7 +294,7 @@ Consider the presence of error-prone sites within ONT-based assemblies.
 Here we provided a pipeline to correct these sites by duplex polishing.
 
 Step 1. Finding the potential modification sites
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: shell
 
@@ -306,7 +306,7 @@ includes the positions of the potential modification sites that have
 been identified in your assembly.
 
 Step 2. Polishing sites using duplex reads
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: shell
 
@@ -345,7 +345,7 @@ are correct, please manually remove them. The presence of an \**asterisk
 determine as an error.
 
 Step 3. Replacing erroneous bases in the assembly with correct counterparts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: shell
 
