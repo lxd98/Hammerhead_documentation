@@ -344,7 +344,7 @@ are correct, please manually remove them. The presence of an \**asterisk
 (\*)*\* indicates this is an ambiguous site that is challenging to
 determine as an error.
 
-Step 3. Replacing erroneous bases in the assembly with correct counterparts
+Step 3. Replacing erroneous bases with correct counterparts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code:: shell
@@ -364,7 +364,6 @@ Step 3. Replacing erroneous bases in the assembly with correct counterparts
 
 The ``final.fasta`` is the final polished genome assembler.
 
-.. _tool-showcase-1:
 
 Tool showcase
 ^^^^^^^^^^^^^
