@@ -367,7 +367,7 @@ The ``final.fasta`` is the final polished genome assembler.
 .. _tool-showcase-1:
 
 Tool showcase
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 To demonstrate the effectiveness of the polishing strategy based on the
 Hammerhead in correcting substitution error types (``G2A`` and ``C2T``)
